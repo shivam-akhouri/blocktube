@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setUploading, resetUploading } from '../../utils/state/slices/uploadSlices';
-import Button from '../../components/Button/Button';
+import Button from '../../components/core/Button/Button';
 import UploadProgressBar from '../../components/UploadProgressBar/UploadProgressBar';
 
 const UploadPage = () => {
