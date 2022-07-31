@@ -1,0 +1,549 @@
+@keyframes left-to-right{
+    from { transform: rotate(0deg)  translateY(100px) rotateZ(0deg); }
+    50% { transform: rotate(360deg) translateY(100px) rotateZ(360deg); }
+    to   { transform: rotate(360deg) translateY(100px) rotateZ(360deg); }
+}
+ 
+
+@keyframes small-circle{
+  from { transform: rotate(0deg)  translateY(10px) rotateZ(0deg); }
+  50% { transform: rotate(360deg) translateY(10px) rotateZ(360deg); }
+  to   { transform: rotate(360deg) translateY(10px) rotateZ(360deg); }
+}
+
+.icon{
+  width:300px;
+  height: 400px;
+  /* justify-content: center; */
+  position: relative;
+  margin: 200px;
+}
+
+.arrowRight {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  border-left: 17.222px solid;
+  animation: small-circle 4s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite;
+ 
+}
+
+.arrowLeft {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute; 
+  border-right:17.222px solid; 
+  animation: small-circle 4s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite;
+  
+}
+
+.arrow1{
+  top: 0px;
+}
+
+.arrow2{
+  top: 10px;
+}
+
+.arrow3{
+  top: 20px;
+  
+}
+
+.arrow4{
+  top: 10px;
+  left: 17px;
+}
+
+.arrow5{
+  top: 10px;
+}
+
+.arrow6{
+  left: 17px;
+  top: 10px;
+}
+
+.arrow7{
+  left: 17px;
+  top: 0px;
+}
+
+.arrow8{
+  left: 17px;
+  top: 20px
+}
+
+
+
+.bigArrow1>div{
+  border-left-color: #79BFFF;
+  border-right-color: #79BFFF;
+}
+
+.bigArrow1{
+  position: absolute;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+  animation: left-to-right 4s ease-in both infinite;
+  
+}
+
+.bigArrow2>div{
+  border-left-color: #79BFFF;
+  border-right-color: #79BFFF;
+}
+
+.bigArrow2{
+  position: absolute;
+  top: 40px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 125ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+
+.bigArrow3>div{
+  border-left-color: #00D0FF;
+  border-right-color: #00D0FF;
+  
+}
+
+.bigArrow3{
+  position: absolute;
+  top: 80px;
+  animation: left-to-right 4s ease-in both infinite;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+  animation-delay: 225ms;
+}
+
+.bigArrow4>div{
+  border-left-color: #00B1D9;
+  border-right-color: #00B1D9;
+}
+
+.bigArrow4{
+  position: absolute;
+  top: 120px;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 325ms;
+}
+
+.bigArrow5>div{
+  border-left-color: #5197D7;
+  border-right-color: #5197D7;
+}
+
+.bigArrow5{
+  position: absolute;
+  top: 20px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 425ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+
+.bigArrow6>div{
+  border-left-color: #00B1D9;
+  border-right-color: #00B1D9;
+}
+
+.bigArrow6{
+  position: absolute;
+  top: 60px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 525ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+
+
+.bigArrow7>div{
+  border-left-color: #09AEC5;
+  border-right-color: #09AEC5;
+}
+
+.bigArrow7{
+  position: absolute;
+  top: 100px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 625ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+.bigArrow8>div{
+  border-left-color: #5197D7;
+  border-right-color: #5197D7;
+}
+
+.bigArrow8{
+  position: absolute;
+  top: 20px;
+  left: 34px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 725ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+
+.bigArrow9>div{
+  border-left-color: #0F71B9;
+  border-right-color: #0F71B9;
+}
+
+.bigArrow9{
+  position: absolute;
+  top: 60px;
+  left: 34px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 825ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+.bigArrow10>div{
+  border-left-color: #0093B4;
+  border-right-color: #0093B4;
+}
+
+.bigArrow10{
+  position: absolute;
+  top: 100px;
+  left: 34px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 925ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+.bigArrow11>div{
+  border-left-color: #276BA9;
+  border-right-color: #276BA9;
+}
+
+.bigArrow11{
+  position: absolute;
+  top: 40px;
+  left: 34px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 1025ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+.bigArrow12>div{
+  border-left-color: #036A81;
+  border-right-color: #036A81;
+}
+
+.bigArrow12{
+  position: absolute;
+  top: 80px;
+  left: 34px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 1125ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+
+.bigArrow13>div{
+  border-left-color: #276BA9;
+  border-right-color: #276BA9;
+}
+
+.bigArrow13{
+  position: absolute;
+  top: 40px;
+  left: 68px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 1225ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+.bigArrow14>div{
+  border-left-color: #036A81;
+  border-right-color: #036A81;
+}
+
+.bigArrow14{
+  position: absolute;
+  top: 80px;
+  left: 68px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 1325ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+.bigArrow15>div{
+  border-left-color: #004E96;
+  border-right-color: #004E96;
+}
+
+.bigArrow15{
+  position: absolute;
+  top: 60px;
+  left: 68px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 1425ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+.bigArrow16>div{
+  border-left-color: #004E96;
+  border-right-color: #004E96;
+}
+
+.bigArrow16{
+  position: absolute;
+  top: 60px;
+  left: 102px;
+  animation: left-to-right 4s ease-in both infinite;
+  animation-delay: 1525ms;
+  /* animation: left-to-right 1s cubic-bezier(0.65, 0.07, 0.16, 0.9) both infinite; */
+}
+
+.a1{
+  animation-delay: 25ms;
+}
+
+.a2{
+  animation-delay: 50ms;
+}
+
+.a3{
+  animation-delay: 75ms;
+}
+
+.a4{
+  animation-delay: 100ms;
+}
+
+.a5{
+  animation-delay: 125ms;
+}
+
+.a6{
+  animation-delay: 150ms;
+}
+
+.a7{
+  animation-delay: 175ms;
+}
+
+.a8{
+  animation-delay: 200ms;
+}
+
+.a9{
+  animation-delay: 225ms;
+}
+
+.a10{
+  animation-delay: 250ms;
+}
+
+.a11{
+  animation-delay: 275ms;
+}
+
+.a12{
+  animation-delay: 300ms;
+}
+
+.a13{
+  animation-delay: 325ms;
+}
+
+.a14{
+  animation-delay: 350ms;
+}
+
+.a15{
+  animation-delay: 375ms;
+}
+
+.a16{
+  animation-delay: 400ms;
+}
+
+.a17{
+  animation-delay: 425ms;
+}
+
+.a18{
+  animation-delay: 450ms;
+}
+
+.a19{
+  animation-delay: 475ms;
+}
+
+.a20{
+  animation-delay: 500ms;
+}
+
+.a21{
+  animation-delay: 525ms;
+}
+
+.a22{
+  animation-delay: 550ms;
+}
+
+.a23{
+  animation-delay: 575ms;
+}
+
+.a24{
+  animation-delay: 600ms;
+}
+
+.a25{
+  animation-delay: 625ms;
+}
+
+.a26{
+  animation-delay: 650ms;
+}
+
+.a27{
+  animation-delay: 675ms;
+}
+
+.a28{
+  animation-delay: 700ms;
+}
+
+.a29{
+  animation-delay: 725ms;
+}
+
+.a30{
+  animation-delay: 750ms;
+}
+
+.a31{
+  animation-delay: 775ms;
+}
+
+.a32{
+  animation-delay: 825ms;
+}
+
+.a33{
+  animation-delay: 850ms;
+}
+
+.a34{
+  animation-delay: 875ms;
+}
+
+.a35{
+  animation-delay: 900ms;
+}
+
+.a36{
+  animation-delay: 925ms;
+}
+
+.a37{
+  animation-delay: 950ms;
+}
+
+.a38{
+  animation-delay: 975ms;
+}
+
+.a39{
+  animation-delay: 1000ms;
+}
+
+.a40{
+  animation-delay: 1025ms;
+}
+
+.a41{
+  animation-delay: 1050ms;
+}
+
+.a42{
+  animation-delay: 1075ms;
+}
+
+.a43{
+  animation-delay: 1100ms;
+}
+
+.a44{
+  animation-delay: 1125ms;
+}
+
+.a45{
+  animation-delay: 1175ms;
+}
+
+.a46{
+  animation-delay: 1200ms;
+}
+
+.a47{
+  animation-delay: 1225ms;
+}
+
+.a48{
+  animation-delay: 1250ms;
+}
+
+.a49{
+  animation-delay: 1275ms;
+}
+
+.a50{
+  animation-delay: 1300ms;
+}
+
+.a51{
+  animation-delay: 1325ms;
+}
+
+.a52{
+  animation-delay: 1350ms;
+}
+
+.a53{
+  animation-delay: 1375ms;
+}
+
+.a54{
+  animation-delay: 1400ms;
+}
+
+.a55{
+  animation-delay: 1425ms;
+}
+
+.a56{
+  animation-delay: 1450ms;
+}
+
+.a57{
+  animation-delay: 1475ms;
+}
+
+.a58{
+  animation-delay: 1500ms;
+}
+
+.a59{
+  animation-delay: 1525ms;
+}
+
+.a60{
+  animation-delay: 1550ms;
+}
+
+.a61{
+  animation-delay: 1575ms;
+}
+
+.a62{
+  animation-delay: 1600ms;
+}
+
+.a63{
+  animation-delay: 1625ms;
+}
+
+.a64{
+  animation-delay: 1650ms;
+}
+
