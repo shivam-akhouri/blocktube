@@ -19,7 +19,7 @@
     border-color: #036A81;
     position: relative; 
     border-width: 1px;
-    top: -0.7em;
+    top: -2.1em;
     
 }
 
@@ -43,15 +43,37 @@
 }
 
 .progressElements{
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex-direction: column;
+    color: #7F7F7F
+    
 }
 
-.progressElements span{
-    margin-right: auto;
-    text-align: center;
+.progressElements p{
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+    top: -3em;
+   
+    
+
 }
+
+.head1{
+    right: 2.3em;
+}
+.head2{
+    right: 0.8em;
+}
+.head3{
+    right: 1.5em;
+}
+.head4{
+    right: 1em;
+}
+
+
 
 .barText{
     margin: auto;
@@ -59,17 +81,7 @@
     color: #7F7F7F;
     font-weight: 500;
 }
-
-.barText :nth-child(1){
-    margin-right: 16em;
-    margin-left: -0.1em
-}
-.barText :nth-child(2){
-    margin-right: 17em
-}
-.barText :nth-child(4){
-    margin-left: 16.4em;
-}
+ 
 
 .completed{
     background-color: #036A81;
@@ -77,4 +89,8 @@
 
 .activeText{
     color: black;
+}
+
+.progressElements :nth-child(1){
+    margin-right: -5em
 }
