@@ -1,0 +1,28 @@
+.ThumbNail{
+    color: #fff;
+    /* background-color: #fff; */
+    width: 14em;
+    height: 14em;
+    margin-top: em;
+    margin-right: auto;
+}
+
+.titleInfo{
+    width: 95%;
+    margin: auto;
+    font-size: 20px;
+}
+.channelInfo{
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+}
+.channelInfo p{
+    margin-left: 0.4em;
+    font-size: 15px;
+}
+.pfp{
+    border-radius: 100%;
+    overflow: hidden;
+
+}
