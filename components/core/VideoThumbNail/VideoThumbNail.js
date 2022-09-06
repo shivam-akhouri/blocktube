@@ -11,7 +11,7 @@ const VideoThumbNail = (props) => {
             <p>{props.title}</p>
             <div className={styles.channelInfo}>
                 <div className = {styles.pfp}>
-                <Image src =  {props.profilePicture} width = {25} height = {25}/>
+                <Image src =  {props.profilePicture} width = {35} height = {35}/>
                 </div>
                 <p>{props.channel}</p>
             </div>

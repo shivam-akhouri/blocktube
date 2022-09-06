@@ -51,6 +51,12 @@ export default function Home() {
             <VideoThumbNail src = {thumbNail} channel="Pandey Ji Ka beta" title = "Chumma chipak ke leta" profilePicture = {pfp}/>
             <VideoThumbNail src = {thumbNail} channel="Pandey Ji Ka beta" title = "Chumma chipak ke leta" profilePicture = {pfp}/>
           </div>
+          <div className={styles.videoRow}>
+            <VideoThumbNail src = {thumbNail} channel="Pandey Ji Ka beta" title = "Chumma chipak ke leta" profilePicture = {pfp}/>
+            <VideoThumbNail src = {thumbNail} channel="Pandey Ji Ka beta" title = "Chumma chipak ke leta" profilePicture = {pfp}/>
+            <VideoThumbNail src = {thumbNail} channel="Pandey Ji Ka beta" title = "Chumma chipak ke leta" profilePicture = {pfp}/>
+            <VideoThumbNail src = {thumbNail} channel="Pandey Ji Ka beta" title = "Chumma chipak ke leta" profilePicture = {pfp}/>
+          </div>
         </div>
       </div>
     </div>
