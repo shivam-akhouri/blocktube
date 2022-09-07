@@ -111,4 +111,5 @@
     top: -55%;
     left: 40%;
     overflow: hidden;
+    transition: 0.5s;
 }
